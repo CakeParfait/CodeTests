@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body {
+	background-image:url("images/barn.jpg");
+	background-position:right;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	
+	background-color:black;
+	
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:white;
+	font-size: 30px;
+}
+
+.mydiv {
+	width: 300px;
+	height:inherit;
+	background-color:white;
+	color:black;
+	font-size: 15px;
+	font-style:italic;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	margin:5px 5px 5px 5px;
+	padding:5px;
+}
+
+.myspan {
+	color: red;
+}
+
+img {
+	margin: 5px 20px 0px 5px;
+	padding: 0px;
+}
