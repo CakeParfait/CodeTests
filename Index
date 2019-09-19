@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href ="examplestyles.css" />
+		<link rel="stylesheet" type="text/css" href ="Java Exercise/Java Test.html"
+		<meta charset="utf-8">
+		<script type="text/javascript">
+		preload("images/Background.png");
+		</script>
+		<title>Monica Fannin's Work from ARTC 3310</title>
+		
+		
+	</head>
+	
+	<body style="background-color:black;">
+		<div id="container" class="background">
+			<div id="inner">
+		<h1> Monica Fannin</h1>
+		<h2 style="text-align: center; " >ARTC 3310, Spring 2019</h2>
+		<h3>
+			<p class="linktext" style="text-align:center; padding:0px; margin:0px;"><a href="about.html">About Me</a></p>
+			<br>
+				<h2>Exercises</h2>
+				<p class="linktext"><a href="ImageFileFormats.html">Testing Images</a></p>
+				<p class="linktext"> <a href="Exercise 1/divspan.html"> Div Span Exercise</a></p>
+				<p class="linktext"><a href="positioning/positioning 2.html"> DIV Positioning Exercise</a></p>
+				<p class="linktext"><a href="Java Exercise/Java Test.html"> JavaScript Exercise</a></p>
+				<p class="linktext"><a href="Rollover Exercise/index.html"> Roll Over Exercise</a></p>
+				<p class="linktext"><a href="Changing Styles/Changing Styles.html"> Changing Styles Exercise</a</p>
+				<p class="linktext"><a href="DecorativeDivs/DecorativeDivs.html"> Decorative Divs Exercise</a></p>
+				<p class="linktext"><a href="Pseudoclass/Pseudoclass.html">Pseudo-Class Exercise</a></p>
+				<p class="linktext"><a href="animation/animation.html">Animation Exercise</a></p>
+				<p class="linktext"><a href="randomness/index.html">Random Exercise</a></p>
+				<p class="linktext"><a href="variables/index.html">Variables Exercise</a></p>
+				
+			
+					<div class="right">
+					<h2>Projects</h2>
+						<p><a href="Project1/index.html"> Project 1</a>
+						<p><a href="Project2/index.html">Project 2</a></p>
+						<p><a href="project3/index.html">Project 3</a></p>
+					</div>
+					
+			
+		</h3>
+					</div>
+					</div>
+	</body>
+</html>
