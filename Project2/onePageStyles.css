@@ -1,0 +1,450 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background-color: black;
+	font-family: 'East Sea Dokdo', cursive;
+
+}
+
+h1 {
+	background-color: black;
+	margin-left: 0px;
+	margin-top:50px;
+	color:white;
+	font-size:250%;
+	font-family: 'East Sea Dokdo', cursive;
+	position:absolute;
+}
+
+h2 {
+	background-color: black;
+	color:white;
+	font-size:200%;
+	position: relative;
+	left:675px;
+	top: 550px;
+	cursor: pointer;
+	font-family: 'East Sea Dokdo', cursive;
+	position:absolute;
+	margin-top:50px;
+}
+
+h3{
+	
+	color:white;
+	font-size: 200%;
+	text-align:center;
+	font-family: 'East Sea Dokdo', cursive;
+	position:absolute;
+	left: 150px;
+}
+
+h4{
+	background-color: black;
+	color:white;
+	font-size:200%;
+	position:absolute;
+	left:550px;
+	cursor:pointer;
+	font-family: 'East Sea Dokdo', cursive;
+	position:absolute;
+}
+
+
+
+#container { /* This creates a viewing area that doesn't move. All divs must be inside this.*/
+	width: 1000px;
+	height:700px;
+   /*overflow:hidden;   Optional */
+    position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+#allScenes {
+  /* This holds the scenes that move around behind the container.  */
+   position:absolute;
+   width:6000px;
+   height:10000px;
+   left:-2000px;
+   top:0px;
+   transition:all 2.0s ease-in-out;
+	background-image:url("images/Background.png"); /*optional*/
+
+}
+
+#stationary { /* OPTIONAL: This stays put while everything moves underneath it.*/
+	position:absolute;	
+	width: 100px;
+	height: 100px;
+	color: white;
+	z-index: 100; /* this is in front of other elements, to make sure it doesn't prevent interactivity with elements beneath it */
+	left: 500px;	
+	top: 200px;
+}
+
+.stationary {
+	position:absolute;
+	width:72px;
+	height:80px;
+	top:300px;
+	left:300px;
+	background-image: url("images/Pin.png")
+}
+
+.stationary:hover {
+	position:absolute;
+	width:72px;
+	height:80px;
+	top:300px;
+	left:300px;
+	background-image: url("images/Pin2.png")
+}
+
+.theScenes{ /* this will be applied to EVERY scene, to maintain consistency */
+   position:absolute;
+   width:1000px;
+   height:700px;
+   padding:0;
+   margin:0;
+
+}
+/*	INDIVIDUAL SCENES: if you change left or top values, moveX and moveY values will need to be changed to match */
+#scene1{
+	left:2000px;
+	top:0px;
+	}
+
+#scene2{
+	background-image: url("images/Scene02_back.png");
+	left:3000px;
+	top:2000px;
+	}
+
+#scene3{
+	background-image:url("images/Scene03_back.png");
+	left:3000px;
+	top:4000px;
+	}
+
+#scene4{
+	background-image: url("images/Scene04_back.png");
+	left:2000px;
+	top:6000px;
+}
+#scene5{
+	background-image:url("images/Scene05_back.png") ;
+	left:1000px;
+	top:4000px;
+	}
+
+#scene6{
+	background-image: url("images/Scene06_back.png");
+	left:1000px;
+	top:2000px;
+}
+
+/*Scene ONE */
+.myDivb1{
+	position:absolute;
+	width:1000px;
+	height: 700px;
+	background-image:url("images/Scene01_back.png");
+	left:0px;
+	top: 0px;
+}
+.myDiv1{
+	position:absolute;
+	width:218px;
+	height: 261px;
+	background-image:url("images/chance_off.png");
+	left:463px;
+	top: 89px;
+}
+.myDiv1:hover {
+	position:absolute;
+	width:218px;
+	height:261px;
+	background-image:url("images/chance_on.png");
+	left:463px;
+	top: 89px;
+}
+
+.mycoin{
+	position:absolute;
+	width:267px;
+	height: 267px;
+	background-image:url("images/coin_off.png");
+	left:216px;
+	top: 198px;
+}
+.mycoin:hover {
+	position:absolute;
+	width:267px;
+	height: 267px;
+	background-image:url("images/coin_on.png");
+	left:216px;
+	top: 198px;
+}
+
+.myint{
+	position:absolute;
+	width:226px;
+	height: 281px;
+	background-image:url("images/int_off.png");
+	left:500px;
+	top: 352px;
+}
+.myint:hover {
+	position:absolute;
+	width:226px;
+	height: 281px;
+	background-image:url("images/int_on.png");
+	left:500px;
+	top: 352px;
+}
+/*Scene TWO */
+
+.Dest{
+	position:absolute;
+	width:224px;
+	height: 237px;
+	background-image:url("images/Dest_Off.png");
+	left:433px;
+	top: 55px;
+}
+.Dest:hover {
+	position:absolute;
+	width:224px;
+	height: 237px;
+	background-image:url("images/Dest_On.png");
+	left:433px;
+	top: 55px;
+}
+
+.Com{
+	position:absolute;
+	width:232px;
+	height: 228px;
+	background-image:url("images/Com_Off.png");
+	left:562px;
+	top: 333px;
+}
+.Com:hover {
+	position:absolute;
+	width:232px;
+	height: 228px;
+	background-image:url("images/Com_On.png");
+	left:562px;
+	top: 333px;
+}
+
+.Incon {
+	position:absolute;
+	width:252px;
+	height: 270px;
+	background-image:url("images/Incon_Off.png");
+	left:290px;
+	top: 277px;
+}
+
+.Incon:hover {
+	position:absolute;
+	width:252px;
+	height: 270px;
+	background-image:url("images/Incon_On.png");
+	left:290px;
+	top: 277px;
+}
+
+/*Scene THREE */
+
+.By {
+	position:absolute;
+	width:241px;
+	height: 238px;
+	background-image:url("images/By_Off.png");
+	left:416px;
+	top: 52px;
+}
+
+
+.By:hover {
+	position:absolute;
+	width:241px;
+	height: 238px;
+	background-image:url("images/By_On.png");
+	left:416px;
+	top: 52px;
+}
+
+.Tempt {
+	position:absolute;
+	width:248px;
+	height: 253px;
+	background-image:url("images/Tempt_Off.png");
+	left:551px;
+	top: 311px;
+}
+
+.Tempt:hover {
+	position:absolute;
+	width:248px;
+	height: 253px;
+	background-image:url("images/Tempt_On.png");
+	left:551px;
+	top: 311px;
+}
+
+.Habit {
+	position:absolute;
+	width:261px;
+	height: 280px;
+	background-image:url("images/Habit_Off.png");
+	left:291px;
+	top: 277px;
+}
+
+.Habit:hover {
+	position:absolute;
+	width:261px;
+	height: 280px;
+	background-image:url("images/Habit_On.png");
+	left:291px;
+	top: 277px;
+}
+/*Scene FOUR */
+
+.Emo {
+	position:absolute;
+	width:229px;
+	height: 230px;
+	background-image:url("images/Emo_Off.png");
+	left:423px;
+	top: 64px;
+}
+
+.Emo:hover {
+	position:absolute;
+	width:229px;
+	height: 230px;
+	background-image:url("images/Emo_On.png");
+	left:423px;
+	top: 64px;
+}
+
+.Sel {
+	position:absolute;
+	width:202px;
+	height: 215px;
+	background-image:url("images/Sel_Off.png");
+	left:486px;
+	top: 317px;
+}
+
+.Sel:hover {
+	position:absolute;
+	width:202px;
+	height: 215px;
+	background-image:url("images/Sel_On.png");
+	left:486px;
+	top: 317px;
+}
+
+.Log {
+	position:absolute;
+	width:268px;
+	height: 281px;
+	background-image:url("images/Log_Off.png");
+	left:160px;
+	top: 219px;
+}
+
+.Log:hover {
+	position:absolute;
+	width:268px;
+	height: 281px;
+	background-image:url("images/Log_On.png");
+	left:160px;
+	top: 219px;
+}
+/*Scene FIVE */
+
+.Pass {
+	position:absolute;
+	width:237px;
+	height: 253px;
+	background-image:url("images/Pass_Off.png");
+	left:437px;
+	top: 102px;
+}
+
+.Pass:hover {
+	position:absolute;
+	width:237px;
+	height: 253px;
+	background-image:url("images/Pass_On.png");
+	left:437px;
+	top: 102px;
+}
+
+.Fam {
+	position:absolute;
+	width:261px;
+	height: 275px;
+	background-image:url("images/Fam_Off.png");
+	left:374px;
+	top: 333px;
+}
+
+.Fam:hover {
+	position:absolute;
+	width:261px;
+	height: 275px;
+	background-image:url("images/Fam_On.png");
+	left:374px;
+	top: 333px;
+}
+
+/*Scene SIX */
+
+.Hum {
+	position:absolute;
+	width:221px;
+	height: 245px;
+	background-image:url("images/Hum_Off.png");
+	left:426px;
+	top: 222px;
+}
+
+.Hum:hover {
+	position:absolute;
+	width:221px;
+	height: 245px;
+	background-image:url("images/Hum_On.png");
+	left:426px;
+	top: 222px;
+}
+
+.black {
+	position:absolute;
+	width:570px;
+	height: 50px;
+	background-color: black;
+	left:210px;
+	top:32px;
+}
+
+.black2 {
+	position:absolute;
+	width:700px;
+	height: 50px;
+	background-color: black;
+	left:141px;
+	top:475px;
+}
