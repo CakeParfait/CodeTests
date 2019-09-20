@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href ="style.css" />
+<title>Variables</title>
+<script type="text/javascript">
+
+	var myClick = 1;
+	function changeColor() {
+
+
+			  if (myClick == 1 ) {
+			  document.getElementById("targetDiv").style.backgroundColor = "purple";
+				myClick = 2;
+			  } else if (myClick == 2 ) {
+				document.getElementById("targetDiv").style.backgroundColor = "blue";
+				 myClick = 3;
+			  } else if (myClick == 3 ) {
+				document.getElementById("targetDiv").style.backgroundColor = "green";
+				 myClick = 4;
+			  } else if (myClick == 4 ) {
+				document.getElementById("targetDiv").style.backgroundColor = "red";
+				 myClick = 1;
+			  }
+		   }
+
+		var myClick = 1;
+	function changeopacity() {
+
+
+			  if (myClick == 1 ) {
+			  document.getElementById("targetDiv").style.opacity = 0.75;
+				myClick = 2;
+			  } else if (myClick == 2 ) {
+				document.getElementById("targetDiv").style.opacity = 0.50;
+				 myClick = 3;
+			  } else if (myClick == 3 ) {
+				document.getElementById("targetDiv").style.opacity = 0.25;
+				 myClick = 4;
+			  } else if (myClick == 4 ) {
+				document.getElementById("targetDiv").style.opacity = 0;
+				 myClick = 1;
+			  }
+		   }
+
+			var myClick = 1;
+	function changeposition() {
+	
+
+          if (myClick == 1 ) {
+		  document.getElementById("targetDiv").style.width = "75px";
+			myClick = 2;
+          } else if (myClick == 2 ) {
+			document.getElementById("targetDiv").style.width = "150px";
+             myClick = 3;
+          } else if (myClick == 3 ) {
+			document.getElementById("targetDiv").style.width = "25px";
+             myClick = 4;
+          } else if (myClick == 4 ) {
+			document.getElementById("targetDiv").style.width = "0px";
+             myClick = 1;
+          }
+       }
+
+</script>
+
+</head>
+
+<body>
+
+<div id="targetDiv"></div>
+<h1>Click on the buttons to make the square change.</h1>
+<div class="circle red" onclick="changeColor();"></div>
+ <div class="square red" onclick="changeopacity();"></div>
+<div class="oval red" onclick="changeposition();"></div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+#targetDiv {
+background-color:blue;
+width:100px;
+height:100px;
+opacity: 0.5;
+}
+
+
+.circle {
+	height:100px;
+	width:100px;
+	border-radius:80px;
+	cursor:pointer;
+}
+
+.red {
+	background: linear-gradient( to bottom right, red,indigo);
+}
+
+.square {
+	height:100px;
+	width:100px;
+	border-radius:5px;
+	cursor:pointer;
+	top:185px;
+	left:150px;
+	position:absolute;
+}
+
+.oval {
+	height:100px;
+	width:300px;
+	border-radius:50px;
+	cursor:pointer;
+	top:185px;
+	left:300px;
+	position:absolute;
+}
