@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+.changeBackground {
+	position:absolute;
+	top:5px;
+	width:100px;
+	height:100px;
+	background-image: url(images/earth.png);
+	cursor:pointer;
+}
+
+.changeBackground:hover {
+	width:100px;
+	height:100px;
+	background-image: url("images/earth_on.png");
+	transition:all 2s;
+	cursor:pointer;
+}
+
+#colorTransition {
+	position: absolute;
+	top:200px;
+	width:100px;
+	height:100px;
+	background-color:red;
+	transition:all 2s;
+
+}
+
+.hoverover{
+	position:absolute;
+	top:400px;
+	width:100px;
+	height:100px;
+	background-color:red;
+	cursor:pointer;
+}
+#rotateCombo {
+	position: absolute;
+	top: 400px;
+	left:200px;
+	width:100px;
+	height:100px;
+	background-color:blueviolet;
+	transition:all 2s;
+}
+
+
+
+
