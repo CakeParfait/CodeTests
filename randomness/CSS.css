@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+#thediv{
+height:100px;
+width:100px;
+border-radius:5px;
+background-color:mediumpurple;
+cursor:pointer;
+}
+
+#theSquare {
+width:50px;
+height:50px;
+background-color:lightcoral;
+cursor: pointer;
+top: 20px;
+position:relative;
+border-radius:100px;
+}
+
+#theRectangle {
+position: absolute;
+top: 200px;
+left: 250px;
+width: 70px;
+height: 20px;
+background-color:darkslategrey;
+cursor: pointer;
+border-radius:5px;
+
+}

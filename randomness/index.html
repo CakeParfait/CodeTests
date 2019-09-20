@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Random Exercise</title>
+	<link rel="stylesheet" type="text/css" href ="CSS.css" />
+	
+	<script type="text/javascript" >
+		var myPix = new Array( "images/Thing1.png" , "images/Thing2.png" , "images/Thing3.png" , "images/Thing4.png", "images/Thing5.png","images/Thing.png");
+
+		function choosePic() {
+		var randomNum = Math.floor( Math.random() * myPix.length); 
+		document.getElementById('myPicture').src = myPix[randomNum];
+		}
+	
+		function randomPage() {
+			var myURLs = new Array("https://www.rainymood.com/", "http://weavesilk.com/", "http://interactive.usc.edu/projects/cloud/flowing/", "https://coolors.co/d6c3c9-b49082-98473e-a37c40-07090f");
+
+			var myRandom = Math.floor(Math.random() * myURLs.length);
+			window.location = myURLs[myRandom]; 
+			}
+		
+		
+			var myColor = new Array("ff0000", "0000ff", "ffff00", "00ffff");
+
+			function randomColor() {
+			var randomNum = Math.floor( Math.random() * myColor.length); 
+			document.getElementById('thediv').style.backgroundColor = "#" + myColor[randomNum];
+			}
+		
+		
+		function chooseNum(theMin, theMax) {
+			var theRange = (theMax - theMin) + 1;
+			var randomNum = Math.floor((Math.random() * theRange) + theMin); 
+			return randomNum;
+			}
+
+			function changeSize(elem, theMin, theMax) {
+			var size=chooseNum(theMin, theMax);
+			document.getElementById(elem).style.width = size + "px";
+			document.getElementById(elem).style.height = size + "px";
+			}
+		
+		function chooseNum(theMin, theMax) {
+			var theRange = (theMax - theMin) + 1;
+			var randomNum = Math.floor((Math.random() * theRange) + theMin); 
+			return randomNum;
+			}
+
+			function changePosition(elem, theMinX, theMaxX, theMinY, theMaxY) {
+			document.getElementById(elem).style.top = chooseNum(theMinY, theMaxY) + "px";
+			document.getElementById(elem).style.left = chooseNum(theMinX, theMaxX) + "px";
+			}
+					</script>
+
+
+
+</head>
+	
+<body>
+	<body onload="choosePic();">
+	<img src="images/thing.png" alt="" id="myPicture">
+	</body>
+	<a href="javascript: randomPage();">Open a random link.</a>
+	<div id="thediv" onclick="javascript: randomColor();"></div>
+	<div id="theSquare" onclick="changeSize('theSquare', 25, 200);"></div>
+	<div id="theRectangle" onclick="changePosition('theRectangle', 300, 600, 720, 400);">Click Me!</div>
+
+
+</body>
+</html>
