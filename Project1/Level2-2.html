@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Project 1 Level2-1</title>
+	<script src="proj1java.js"></script>
+	<link rel="stylesheet" type="text/css" href ="stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+</head>
+/* Here is where there will be a roll over and hyperlink for the scorpio constellation and for the libra constellation. Hopefully I can make the background into a moving gif when rolled over.*/
+<body>
+	<div id="container" style="background-image: url('images/Level2.1 background.jpg')">
+		<div id="inner">
+				<h3>What do you stand for?</h3>
+			
+			<a href="Level3-2.html">
+				<div class="libra" 
+						onmouseover="document.libra.src = libraOn.src;"
+						onmouseout="document.libra.src = libraOff.src;">
+						<img src="images/libra_off.png" name="libra">
+					</div>
+				</a>
+			<a href="Level3-3.html"><div class="scorpio" 
+						onmouseover="document.scorpio.src = scorpOn.src;"
+						onmouseout="document.scorpio.src = scorpOff.src;">
+						<img src="images/scorpiooff.png" name="scorpio">
+					</div>
+				</a>
+			
+		</div>
+	</div>
+	
+</body>
+</html>

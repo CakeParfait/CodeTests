@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+	background-color: black;	
+}
+
+#container {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:1366px;
+	height: 700px;
+	top:0px;
+}
+
+#inner { 
+	position: absolute; 
+	width: 1366px; 
+	height: 700px; 
+	top: 0px;
+	padding:0px;
+}
+
+H3 {
+	font-family:'Megrim', cursive;
+	float:top;
+	font-style:italic;
+	font-size:50px;
+	color:#009cff;
+	position:absolute;
+}
+
+p  {
+	font-family:'Megrim', cursive;
+	font-style:italic;
+	font-size:35px;
+	color:#009cff;
+	margin:0px;
+}
+
+.moveimage {
+	position:relative;
+	top:3px;
+}
+				
+					
+
+.opt1 { 
+	width:100px;
+	height:100px;
+	padding:10px;
+	background-color:darkblue;
+	position:absolute;
+	top:300px;
+	left:200px;
+}
+
+.opt2 { 
+	width:100px;
+	height:100px;
+	padding:10px;
+	background-color:darkorchid;
+	position:absolute;
+	top:300px;
+	left:800px;
+}
+
+					/*Level4-2.html*/
+.sun {
+	width:946px;
+	height:649px;
+	position:absolute;
+	left:251px;
+	top:99px;
+	background-image: url("images/sun_off.png")
+}
+
+					/*Level4-1.html*/
+.butt {
+	width:380px;
+	height:283px;
+	position:absolute;
+	left:411px;
+	top:358px;
+	background-image: url("images/butt_off.png")
+}
+
+					/*Level3-3.html*/
+.scor {
+	left:390px;
+	top:141px;
+	width:605px;
+	height:471px;
+	position:absolute;
+	background-image: url("images/Scorp_Off.png");
+}
+
+.hum {
+	left:820px;
+	top:384px;
+	width:334px;
+	height:228px;
+	position:absolute;
+	background-image: url("images/Human_Off.png");
+}
+
+.rust {
+	left:995px;
+	top:104px;
+	width:325px;
+	height:143px;
+	position:absolute;
+	background-image: url("images/Rust_Off.png");
+}
+
+
+.edu {
+	left:189px;
+	top:600px;
+	width:506px;
+	height:109px;
+	position:absolute;
+	background-image: url("images/Edu_Off.png");
+}
+
+.law {
+	width:453px;
+	height:113px;
+	position:absolute;
+	top:337px;
+	left:189px;
+	background-image: url("images/Law_Off.png");
+}
+
+.control {
+	width:579px;
+	height:106px;
+	position:absolute;
+	top:141px;
+	left:189px;
+	background-image: url("images/Control_Off.png");
+}
+
+
+					/*Level3-2.html*/
+.water {
+	width:1366px;
+	height:768px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-image: url("images/L3-2-Background.png")
+}
+					/* Level 3-1.html*/
+		
+.branch {
+	width:1366px;
+	height:768px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image:url("images/branch_off.png")
+	
+}
+.grass {
+	width:1235px;
+	height:394px;
+	position:absolute;
+	left:71px;
+	top:343px;
+	background-image:url("images/grass_off.png")
+	
+}
+
+
+					/* Level 2-2.html*/
+.libra {
+	width:716px;
+	height:361px;
+	position:absolute;
+	left:589px;
+	top:100px;
+	background-image:url("images/libra_off.png")
+	
+}
+
+.scorpio {
+	width:645px;
+	height:497px;
+	position:absolute;
+	left:155px;
+	top:209px;
+	background-image:url("images/scorpiooff.png");
+	
+}
+					/* Level 2-1.html*/
+.river {
+	width:1211px;
+	height:342px;
+	position:absolute;
+	left:73px;
+	top:405px;
+	background-image:url("images/river_off.png")
+	
+}
+
+.trees {
+	width:1303px;
+	height:636px;
+	position:absolute;
+	left:27px;
+	top:0px;
+	background-image:url("images/trees_off.png");
+}
+					/*index page.html*/
+	
+.earth {
+	width:346px;
+	height:336px;
+	position:absolute;
+	left:484px;
+	top:186px;
+	background-image: url("images/earthoff2.png");
+	
+}
+
+.galaxy {
+	width:1366px;
+	height:768px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image: url("images/index.jpg");
+}
