@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+	background-color: black;	
+}
+
+#container {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:1366px;
+	height: 768px;
+	top:0px;
+}
+
+#inner { 
+	position: absolute; 
+	width: 1366px; 
+	height: 768px; 
+	top: 0px;
+	padding:0px;
+}
+
+H3 {
+	font-family:'Megrim', cursive;
+	float:top;
+	font-style:normal;
+	font-size:50px;
+	color:white;
+	position:absolute;
+	top: 20px;
+}
+
+p  {
+	font-family:'Megrim', cursive;
+	font-style:normal;
+	font-size:35px;
+	color:white;
+	margin:0px;
+	text-align:left;
+	position:absolute;
+	top: 685px;
+	left: 925px;
+}
+
+
+.moveimage {
+	position:relative;
+	top:3px;
+}
+				
+					
+
+
+					/*Level3-2.html*/
+
+
+
+					/* Level 2-2.html*/
+				/*index page.html*/
+	
+.star {
+	width: 129px;
+	height: 129px;
+	background-image: url("images/star_off.png");
+	position:absolute;
+	top: 324px;
+	left: 289px;
+	cursor: pointer;
+}
+.sun_icon {
+	width: 94px;
+	height: 84px;
+	background-image: url("images/sun_icon.png");
+	position:absolute;
+	top: 660px;
+	left: 1272px;
+}
+.gal_icon {
+	width: 124px;
+	height: 90px;
+	background-image: url("images/gal_icon.png");
+	position:absolute;
+	top: 660px;
+	left: 1148px;
+}
+.star_icon {
+	width: 73px;
+	height: 58px;
+	background-image: url("images/star_icon.png");
+	position:absolute;
+	top: 675px;
+	left: 1075px;
+}

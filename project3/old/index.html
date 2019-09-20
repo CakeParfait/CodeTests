@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Galaxy Warp</title>
+	<link rel="stylesheet" type="text/css" href ="stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+	<script src="proj3java.js"></script>
+	<script type="text/javascript">
+		preload("images/index_background.png", "images/star_off.png", "images/star_on.png");
+	</script>
+</head>
+	
+<body>
+	<div id="container" style="background-image: url('images/index_background.png')">
+		<div id="inner">
+				
+		<div><h3>Galaxy Warp</h3></div>
+			<p>Find The:</p>
+			<div class="star_icon"></div>
+			<div class="gal_icon"></div>
+			<div class="sun_icon"></div>
+			<a href="Level 2.html">
+				<div class="star"
+					onmouseOver="document.star.src = starOn.src;"
+					onmouseout = "document.star.src = starOff.src;">
+						<img src="images/star_off.png" name="star">
+				</div>
+			</a>
+			
+			
+		</div>
+	</div>
+	
+</body>
+</html>

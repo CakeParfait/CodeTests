@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:1366px;
+	height: 700px;
+	top:0px;
+}
+
+#inner { 
+	position: absolute; 
+	width: 1366px; 
+	height: 700px; 
+	top: 0px;
+	padding:0px;
+}
+
+
+img {
+cursor: pointer;
+}
+
+#background{
+background-color:black;
+}
+
+H3 {
+	font-family:'Megrim', cursive;
+	font-style:normal;
+	font-size:70px;
+	color:white;
+	position:absolute;
+	top: 50px;
+	left:250px;
+}
+
+#mainGame{
+	background-image: url("images/Level 4_Background.png");
+	width:1366px;
+	height:700px;
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	top:0px;
+}
+
+#Winner{
+	background-image: url(images/Level 4_Background.png);
+	width:1366px;
+	height:700px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#backgroundone{
+	background-image: url('images/Level 1_Background.png');
+	width:1366px;
+	height:700px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#backgroundtwo{
+	background-image: url("images/Level 2_Background.png");
+	width:1366px;
+	height:700px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#backgroundthree{
+	background-image: url("images/Level 3_Background.png");
+	width:1366px;
+	height:700px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#backgroundfour{
+	background-image: url("images/Level 4_Background.png");
+	width:1366px;
+	height:700px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.custom {
+	cursor:url(images/astronautCursor.png), auto;
+	
+}
+
+.inst {
+	background-image: url("images/inst.png");
+	width:267px;
+	height:69px;
+	position:absolute; 
+	left:850px; 
+	top:200px;
+}
+
+
+#PlayGame{
+	position:absolute;
+	width:auto;
+	height:auto;
+	left:290px;
+	bottom:240px;
+}
+
+#theStar {
+		position: absolute;
+		top: 50px;
+		left: 100px;
+		width: 150px;
+		height: 150px;
+		background-image:url("images/stars_off.png");
+		transition: width 2s;
+}
+
+#theStar1 {
+		position: absolute;
+		top: 300px;
+		left: 500px;
+		width: 150px;
+		height: 150px;
+		background-image:url("images/gal_off.png");
+		transition: width 2s;
+}
+
+#theStar2 {
+		position: absolute;
+		top: 100px;
+		left: 300px;
+		width: 150px;
+		height: 150px;
+		background-image:url("images/sun_off.png");
+		transition: width 2s;
+}
+
+#theStar3 {
+		position: absolute;
+		top: 600px;
+		left: 600px;
+		width: 150px;
+		height: 150px;
+		background-image:url(images/mini_gal.png);
+		transition: width 2s;
+}
+
+
+#starCounter {
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		width: 300px;
+		height: 50px;
+		font-family:'Megrim', normal;
+		font-size: 40px;
+		color:white;
+
+}
+
+#timerID{
+	position:absolute;
+	bottom:50px;
+	left:0px;
+	font-family:'Megrim', normal;
+		font-size: 40px;
+		color:white;
+}
+
+#goal{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	font-family:'Megrim', normal;
+		font-size: 40px;
+		color:white;
+}
+
+#goal{
+	position:absolute;
+	bottom:0px;
+	left:100px;
+	font-family:'Megrim', normal;
+		font-size: 40px;
+		color:white;
+		
+	
+}
+
+#gameOver{
+	position:absolute;
+	font-family:'Megrim', normal;
+		font-size: 250px;
+		color:white;
+		
+}
+
+#replay{
+	position:absolute;
+	top:550px;
+	left:584px
+}
+
+

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Galaxy Warp Lvl 1</title>
+<link href="css.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+<script type="text/javascript" src="Level 1.js"></script>
+	<script type="text/javascript">
+		preload("images/Level 1_background.png");
+	</script>
+</head>
+
+<body  onload="startTimer();" id="background">
+	<div id="container">
+		<div id="inner">
+			<div id="backgroundone">
+				
+				<div  value="PLAY" onclick="play('note')">
+					<img src="images/stars_off.png" cursor="pointer" alt="" id="theStar" onclick="changePosition('theStar', 50, 500, 200, 400), choosePic();">
+				
+					<div id="starCounter"><p></p></div>
+
+					<div id="timerID" >
+						<b> [ <span id="time" > </span> </b>] 
+					</div>
+
+					<audio controls autoplay>
+						<source src="Synth Kid -They mostly come at night... Mostly.mp3" type="audio/mpeg">
+						<source src="Synth Kid -They mostly come at night... Mostly.ogg" type="audio/ogg">
+					</audio>
+
+					<div id="goal">Goal: Find the Three Icons</div>
+					<div style="position:absolute; left:600px; top:635px;">
+						<img src="images/icons.png" style="width:60%;">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
