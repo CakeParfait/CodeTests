@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.myDiv {
+position: absolute;
+height: 100px;
+width: 100px;
+background-color:plum;
+left: 25px;
+top: 350px;
+padding:10px;
+}

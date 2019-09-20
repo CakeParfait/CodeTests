@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<script src="javatest.js"></script>
+	<link rel="stylesheet" type="text/css" href ="javatestcss.css"/>
+<meta charset="utf-8">
+<title>Java Test</title>
+</head>
+	
+<body>
+	<h2> What can JavaScript Do?</h2>
+
+		
+		<p id="roll">This is a paragraph that has some text in it. Hopefully it will change when the sentence below is rolled over!</p>
+		
+			<p onmouseover="document.getElementById('roll').innerHTML = 'This is the changed text from being rolled over!'">Roll over me! </p>
+		
+		   
+		<p id="click"> This paragraph will change when the sentence below is clicked on!</p>
+			
+			<p onclick="document.getElementById('click').innerHTML = 'This is the changed text from being clicked on!'">Click here!</p>
+		
+	
+		<p id="mouse">This paragraph will change when it is moused down and up</p>
+			
+			<p onmousedown="document.getElementById('roll').innerHTML = 'This is the mouse down!'" onmouseup="document.getElementById('roll').innerHTML = 'This is the mouse up!'">Mouse over me!</p>
+			
+		<div class="myDiv">
+	<p id="demo">This will be a button.</p>
+		
+	<p onmouseover="myfunction()" onmousedown="myfunction()" onmouseup="myfunction()">Play with me.</p>
+		</div>
+			
+</body>
+</html>
